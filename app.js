@@ -2,7 +2,7 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 // Configuration: renseignez les valeurs du projet Supabase avant le déploiement.
 const SUPABASE_URL = hjrigtzifkvcmznmguga;
-const SUPABASE_ANON_KEY =sb_publishable_Gca6FMAqhIAu1gXNI3FSPQ_J7FvhWBw;
+const SUPABASE_ANON_KEY = sb_publishable_Gca6FMAqhIAu1gXNI3FSPQ_J7FvhWBw;
 const configured = SUPABASE_URL.startsWith('https://') && !SUPABASE_URL.includes('REMPLACER') && !SUPABASE_ANON_KEY.includes('REMPLACER');
 const $=id=>document.getElementById(id), money=n=>new Intl.NumberFormat('fr-FR',{maximumFractionDigits:0}).format(Number(n)||0)+' FCFA';
 const uid=()=>crypto.randomUUID();
